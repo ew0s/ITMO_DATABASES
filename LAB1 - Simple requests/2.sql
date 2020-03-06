@@ -1,0 +1,6 @@
+SELECT
+    NAME, COLOR, SIZE
+FROM
+    Production.Product
+WHERE
+    COLOR IS NOT NULL AND SIZE IS NOT NULL AND ListPrice > 100

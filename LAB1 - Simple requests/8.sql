@@ -1,0 +1,6 @@
+SELECT
+    COLOR
+FROM
+    Production.Product
+WHERE
+    NAME LIKE 'C_a%' AND COLOR IS NOT NULL

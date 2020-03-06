@@ -1,0 +1,8 @@
+SELECT TOP 3 WITH TIES
+    NAME, SIZE
+FROM
+    Production.Product
+WHERE
+    Size IS NOT NULL AND COLOR LIKE 'Black'
+ORDER BY
+    ListPrice DESC
