@@ -1,8 +1,8 @@
 SELECT
-  COLOR
+	COLOR
 FROM
-  Production.product
+	Production.product
 WHERE
-  NAME LIKE 'L_N%'
+	NAME LIKE 'L_N%'
 ORDER BY
-  COLOR
+	COLOR
