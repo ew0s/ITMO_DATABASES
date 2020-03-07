@@ -1,3 +1,8 @@
 SELECT
-
+	COLOR
 FROM
+	Production.product
+WHERE
+	NAME LIKE 'L_N%'
+ORDER BY
+	COLOR
