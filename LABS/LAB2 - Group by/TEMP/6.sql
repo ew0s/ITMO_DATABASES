@@ -1,0 +1,10 @@
+SELECT
+    SIZE
+FROM
+    Production.Product
+WHERE
+    SIZE IS NOT NULL
+GROUP BY
+    SIZE
+HAVING
+    COUNT(*) > 10
