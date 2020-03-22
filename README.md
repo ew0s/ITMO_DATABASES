@@ -5,10 +5,10 @@
 2. [x] 2. [Laboratorie №2 - group by](https://github.com/ew0s/ITMO_DATABASES/tree/master/LABS/LAB2%20-%20Group%20by)
 3. [x] 3. [Laboratorie №3 - join]
  
-   [Main requests](https://github.com/ew0s/ITMO_DATABASES/tree/master/LABS/LAB3%20-%20JOIN/MAIN%20TASKS)
+     [Main requests](https://github.com/ew0s/ITMO_DATABASES/tree/master/LABS/LAB3%20-%20JOIN/MAIN%20TASKS)
 
  
-   [Test requests](https://github.com/ew0s/ITMO_DATABASES/tree/master/LABS/LAB3%20-%20JOIN/TEST%20TASKS)
+     [Test requests](https://github.com/ew0s/ITMO_DATABASES/tree/master/LABS/LAB3%20-%20JOIN/TEST%20TASKS)
  
 4. [ ] 4. [Laboratorie №4 - soon](#)
 5. [ ] 5. [Laboratorie №5 - soon](#)
