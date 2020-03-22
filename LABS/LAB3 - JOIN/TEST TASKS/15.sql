@@ -1,0 +1,8 @@
+SELECT
+    LEN(NAME) AS 'LEN NAME', COUNT(*) AS 'AMOUNT'
+FROM
+    Production.Product
+WHERE
+    NAME IS NOT NULL
+GROUP BY
+    LEN(Name)
