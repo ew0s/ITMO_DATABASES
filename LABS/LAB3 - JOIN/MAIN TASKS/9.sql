@@ -1,11 +1,11 @@
 SELECT TOP 1
     P.Name
 FROM
-    Sales.SalesOrderDetail AS SS
-JOIN
     Production.Product AS P
+JOIN
+    Purchasing.ProductVendor AS PV
 ON
-    P.ProductID = SS.ProductID
+    P.ProductID = PV.ProductID
 GROUP BY
     P.Name
 ORDER BY
