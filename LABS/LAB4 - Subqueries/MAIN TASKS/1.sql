@@ -1,28 +1,15 @@
 SELECT
     Name
 FROM
-    Production.ProductSubcategory AS PS
+    Production.Product as P1
 WHERE
-    ProductSubcategoryID IN (
-        SELECT
-            PP.ProductSubcategoryID
+    ProductID = (
+        SELECT TOP 1
+            SOD.ProductID
         FROM
-            Production.Product AS PP
-        WHERE
-            PP.ProductSubcategoryID IS NOT NULL
+            Sales.SalesOrderDetail AS SOD
         GROUP BY
-            PP.ProductSubcategoryID
-        HAVING
-            COUNT(*) = (
-                SELECT TOP 1
-                    COUNT(*)
-                FROM
-                    Production.Product AS PP2
-                WHERE
-                    PP2.ProductSubcategoryID IS NOT NULL
-                GROUP BY
-                    PP2.ProductSubcategoryID
-                ORDER BY
-                    1 DESC
-                )
+            SOD.ProductID
+        ORDER BY
+            COUNT(*) DESC
         )
